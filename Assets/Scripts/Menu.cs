@@ -13,8 +13,8 @@ public class Menu : MonoBehaviour
     public void OnQuitButton ()
     {
         #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
         #endif
-            Application.Quit();
+        Application.Quit();
     }
 }
